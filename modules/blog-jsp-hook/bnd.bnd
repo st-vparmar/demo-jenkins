@@ -1,0 +1,4 @@
+Bundle-Name: blog-jsp-hook
+Bundle-SymbolicName: blog.jsp.hook
+Bundle-Version: 1.0.0
+Fragment-Host: com.liferay.blogs.web;bundle-version="2.0.5"

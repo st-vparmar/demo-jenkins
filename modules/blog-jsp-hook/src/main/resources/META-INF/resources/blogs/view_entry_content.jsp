@@ -28,7 +28,7 @@ RatingsStats ratingsStats = (RatingsStats)request.getAttribute("view_entry_conte
 
 String socialBookmarksDisplayPosition = blogsPortletInstanceConfiguration.socialBookmarksDisplayPosition();
 
-System.out.println("7th time jenkins test.....");
+System.out.println("Added changes in github by viral.....");
 
 %>
 

@@ -28,7 +28,7 @@ RatingsStats ratingsStats = (RatingsStats)request.getAttribute("view_entry_conte
 
 String socialBookmarksDisplayPosition = blogsPortletInstanceConfiguration.socialBookmarksDisplayPosition();
 
-System.out.println("first time jenkins test.....");
+System.out.println("second time jenkins test.....");
 AssetEntry blogAssetEntry =  
 %>
 

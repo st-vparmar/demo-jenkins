@@ -1,0 +1,74 @@
+/* Header Section */
+
+#navigation {
+    background-color: $icon-green;
+    color: $color-white;
+    ul li a {
+    	color: $color-white; 
+	}
+}
+
+/* header */
+#banner {	
+	background-color: $color-white;
+	box-shadow: 0 5px 5px $light-gray-shade2;
+    .right-nav-menu {
+    	.user-guide {
+    		border: 2px solid $icon-green;
+    		&:hover,
+    		&:focus {
+    			color:   $icon-primary-palette-1;
+    			border-color:  $icon-primary-palette-1;
+    			box-shadow: none;
+    		}
+    		/* .user-guide-text {
+    			color: $icon-green;
+    			border-color: $icon-green;
+    			&:hover {
+    				color: $icon-primary-palette-1;
+    				border-color:  $icon-primary-palette-1;
+    			}
+    		} */    		
+    	}    	
+    	.user-avatar-link a:hover .user-icon-color-2, 
+    	.user-avatar-link a:hover .user-icon:before{
+    		color: $icon-primary-palette-1;
+    		border-color: $icon-primary-palette-1;
+    	}
+    	.header-icon-link:hover {
+    		color: $icon-primary-palette-1;
+    	}
+    	.portlet-user-personal-bar .user-icon:before {
+			color: $icon-green;
+		}
+		.searchbar .portlet-search .portlet-content-container .fieldset .form-group-inline {
+			.search-input {
+				border:2px solid $icon-green;
+				&:focus {
+					border-color: $icon-primary-palette-1;
+				}
+				&::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+			 		color: $icon-green;
+				}
+				&::-moz-placeholder { /* Firefox 19+ */
+					color: $icon-green;
+				}
+				&:-ms-input-placeholder { /* IE 10+ */
+					color: $icon-green;
+				}
+				&:-moz-placeholder { /* Firefox 18- */
+					color: $icon-green;
+				} 
+				
+			}
+			&::before {
+				color: $icon-green;
+			}	
+			&:focus-within {
+  				&::before {
+					color: $icon-primary-palette-1;
+				}	
+			}
+		}
+    }
+}

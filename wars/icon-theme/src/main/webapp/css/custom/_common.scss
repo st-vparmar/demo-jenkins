@@ -1,0 +1,33 @@
+
+/** Common class **/
+
+.common-header-element-margin {
+	margin-right: 30px;
+}
+
+.btn-padding {
+	padding: 6px 12px;
+}
+
+.wrapper {
+	padding: 0px 50px;
+}
+
+@media (max-width: 1024px) {
+	.common-header-element-margin {
+		margin-right: 20px;
+	}		
+}
+
+@media (max-width: 991px) {
+	.common-header-element-margin {
+		margin-right: 15px;
+	}		
+}
+
+
+@media (max-width: 768px) {
+	.wrapper {
+		padding: 0px 50px;
+	}
+}
